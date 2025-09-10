@@ -1,0 +1,46 @@
+sunkissed-style/
+│
+├── index.html
+├── styles.css
+└── script.js
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sunkissed Style – Summer Dress Sale</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <header>
+    <h1>Sunkissed Style</h1>
+    <p>Hot Summer Dress Sale – Up to 50% OFF!</p>
+  </header>
+
+  <section class="filters">
+    <select id="filter-style">
+      <option value="">All Styles</option>
+      <option value="floral">Floral</option>
+      <option value="casual">Casual</option>
+      <option value="beach">Beachwear</option>
+    </select>
+    <select id="filter-price">
+      <option value="">Price Range</option>
+      <option value="low">Under $50</option>
+      <option value="medium">$50 - $100</option>
+      <option value="high">Over $100</option>
+    </select>
+  </section>
+
+  <main class="product-grid" id="product-grid">
+    <!-- Products will be injected here by script.js -->
+  </main>
+
+  <footer>
+    <p>© 2025 Sunkissed Style. All rights reserved.</p>
+  </footer>
+</body>
+</html>
+
+
